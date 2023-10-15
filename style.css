@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+
+/*Reset default settings*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/*Style the body*/
+body{
+  background:hsl(212, 23%, 69%);
+  fon-size:13px;
+}
+/* Style the main image of the page*/
+#mainImageDisplay img{
+  width:100%;
+  height:100%;
+}
+/* style the main container section for other sections*/
+#containerForOtherSections{
+  display:flex;
+  margin:30% auto;
+  border-radius:10px;
+  border: 1px Solid transparent;
+ background: white;
+ width:70%;
+ height:380px;
+}
+#otherContents{
+  padding:3% 4%;
+}
+h2,h3{
+ font-family: 'Manrope', sans-serif; 
+ font-weight:700;
+ line-height: 1.5em;
+ margin:5% 0 1% 2%;
+}
+#otherContents > h2{
+  padding:3% 0;
+}
+/* style the rounded image */
+#roundedImage{
+  border-radius: 50%;
+  width:10%;
+  float:left;
+  margin:8% 4% 0 0;
+}
+/* clear the float property on the image*/
+.clr{
+  clear: left;
+}
+/* style the span on the page*/
+#profileImage{
+  margin-top:3%;
+  
+  
+}
+#icon{
+  float:right;
+  border:1px solid darkgray;
+  padding:2%;
+  border-radius: 50%;
+  background: gainsboro;
+  
+  
+}
+/*@media all  and (max-width:375px){
+  Section{
+    display:block;
+    width:100%;
+  }
+}*/
